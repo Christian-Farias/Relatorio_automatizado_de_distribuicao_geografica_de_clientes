@@ -3,8 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat&logo=python)](https://www.python.org/)
 [![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?style=flat&logo=pandas)](https://pandas.pydata.org/)
 [![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-11557c?style=flat)](https://matplotlib.org/)
-[![Automation](https://img.shields.io/badge/Automation-Email%20Report-green?style=flat)]
-[![Status](https://img.shields.io/badge/Status-Production%20Ready-success?style=flat)]
+![Automation](https://img.shields.io/badge/Automation-Email%20Report-green?style=flat)
 
 > Sistema automatizado em Python para geração e envio de relatório executivo com métricas geográficas de clientes via e-mail.
 
@@ -22,7 +21,7 @@
 
 Este projeto foi desenvolvido com o objetivo de simular um **cenário real corporativo**, onde relatórios executivos precisam ser gerados automaticamente e enviados periodicamente para stakeholders.
 
-O sistema realiza:
+O código realiza:
 
 - Processamento da base de clientes  
 - Cálculo de métricas estratégicas  
@@ -59,7 +58,7 @@ Arquivo utilizado: data/olist_customers_dataset.csv
 
 ### 📧 Relatório Executivo
 - Template em HTML estilizado  
-- Tabela dinâmica incorporada  
+- Tabela incorporada  
 - Insights interpretativos automáticos  
 - Anexos (Excel + gráfico PNG)  
 - Envio via SMTP com variável de ambiente  
@@ -77,8 +76,6 @@ Arquivo utilizado: data/olist_customers_dataset.csv
 - **smtplib**
 - **email.message**
 - **python-dotenv**
-
----
 
 ---
 
